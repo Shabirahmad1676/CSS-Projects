@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.container{
+  background-color: beige;
+  min-height: 100vh;
+  border:6px solid black;
+  /* max-width: 1280px; */
+   /* margin: 0 auto; */
+}
+.content{
+  max-width: 900px;
+  /* padding :1px; */
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(8, 8, 8);
+  margin: 0 auto;
+  padding-right: 2rem;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+}
+.title{
+  font-size: 2rem;
+  padding: 1.6rem;
+}
+
+.input-grid{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+#message-area{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+} 
+
+label{
+  font-size: 1.5rem;
+}
+.input-box>input{
+  padding: 15px 0.2rem;
+}
+.input-box>select{
+  padding:15px 0.2rem ;
+}
+input:focus{
+  outline-color:red ;
+}
+.input-box>textarea{
+  padding: 2rem 6rem;
+}
+#file{
+  padding: 0;
+  margin-top: 1rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+button{
+  background-color: rgb(250, 11, 11);
+  padding: 0.7rem 2rem;
+  margin: 2rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

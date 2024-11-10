@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+}
+.top-section{
+  background-image: url(images/html-system-website-concept.jpg);
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.text>h2{
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+span{
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.heading{
+  padding-top:2rem ;
+  padding-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+.you{
+  font-size: 5rem;
+}
+.card-box{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.card-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 2px 3px 4px rgba(1,1,1,0.5);
+  /* padding-top: 1rem; */
+}
+.image-box{
+  /* height: 200px;
+  width: 200px; */
+  position: relative;
+}
+.image-box>img{
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position:center;
+}
+.desc-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.about-contact{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.about,.contact{
+  /* padding-top: 2rem; */
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border: 1px solid black;
+}
+.contact{
+  background-color: brown;
+}
+.about-title,.contact-title{
+  font-size: 3rem;
+}
+.about-desc,.contact-desc{
+  font-size: 1.6rem;
+}
+footer{
+  background-color: aquamarine;
+  padding: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}

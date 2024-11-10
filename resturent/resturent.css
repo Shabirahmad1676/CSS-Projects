@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ body{
+  height: 100%;
+  width: 100vw;
+} 
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar-container{
+ max-width: 1280px;
+ margin: 0 auto;
+}
+nav{
+  box-shadow: 5px 5px 5px  rgba(1,1,1,0.05);
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 0.7rem; */
+  margin-bottom: 3rem;
+ 
+}
+.menu-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.logo>img{
+  height: 7rem;
+  width: 7rem;
+}
+.hero-container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+/* .left-box>img{ 
+  height: 500px;
+ width: 500px; 
+} */
+.right-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tag{
+  background-color: aqua;
+  align-self: flex-start;
+  padding: 5px 10px;
+  margin-bottom: 1.8rem;
+  font-size: 2rem;
+}
+.hero-title{
+  font-size: 5.5rem;
+  line-height: 100px;
+  margin-bottom: 1.8rem;
+}
+button{
+  margin-top: 1.8rem;
+  background-color: orange;
+  padding: 15px 20px;
+  font-size: 2rem;
+  color: white;
+  border: none;
+}
+.items-container{
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  box-shadow: 0px 3px 0px 0px rgba(107, 101, 101, 0.589);
+}
+.items-grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+.item-icon{
+  height: 6rem;
+  width: 6rem;
+}
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.menu-container .tag{
+  align-self: center;
+}
+.grid-box{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+  /* grid-template-rows: repeat(3,1fr); */
+}
+ /* .item1{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}  */

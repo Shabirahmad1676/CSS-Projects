@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+  <link rel="stylesheet" href="job.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="content">
+
+      <h2 class="title">Job Application Form</h2>
+      <form action="">
+
+      <div class="input-grid">
+        <!-- input 1 -->
+        <div class="input-box">
+          <label for="Fname">First Name</label>
+          <br>
+          <input type="text" id="Fname">
+        </div>
+        <!-- input 2 -->
+        <div class="input-box">
+          <label for="Lname">Last Name</label>
+          <br>
+          <input type="text" id="Lname">
+        </div>
+        <!-- input 3 -->
+        <div class="input-box">
+          <label for="email">Email</label>
+          <br>
+          <input type="email" id="email">
+        </div>
+        <!-- input 4 -->
+        <div class="input-box">
+          <label for="dropdown">Job Role</label><br>
+          <select name="dropdown" id="dropdown">
+            
+            <option value="Web developer">Web developer</option>
+            <option value="Graphic Designer">Graphic Designer</option>
+            <option value="App developer">App developer</option>
+          </select>
+        </div>
+        <!-- input 5 -->
+        <div class="input-box" id="message-area">
+          <label for="message">Enter Message</label><br>
+          <textarea name="text-area" id="message"  rows="4" cols="50"></textarea>
+        </div>
+        <!-- input 6 -->
+        <div class="input-box">
+          <label for="city">City</label><br>
+          <input type="text" id="city">
+        </div>
+        <!-- input 7 -->
+        <div class="input-box">
+          <label for="pincode">Pincode</label><br>
+          <input type="number" id="pincode">
+        </div>
+        <!-- input 8 -->
+        <div class="input-box">
+          <label for="date">Date of Birth</label><br>
+          <input type="date" id="date">
+        </div>
+        <!-- input 9 -->
+        <div class="input-box">
+          <label for="file">Upload file</label><br>
+          <input type="file" id="file">
+        </div>
+        </div>
+      </form>
+       
+        <div class="btn-container">
+          <button>Apply Now</button>
+        </div>
+          
+        
+      </div>
+  </div>
+</body>
+</html>
